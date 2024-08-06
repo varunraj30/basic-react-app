@@ -1,9 +1,8 @@
+[phases.install]
+cmds = [ "npm install"]
+
 [build]
-command = "npm run build" 
+cmd = "npm run build"
 
-[serve]
-command = "npm run start" 
-
-          
-[install]
-command = "npm install"  
+[start]
+cmd = "npm run start"
